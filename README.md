@@ -1,5 +1,7 @@
 # ESP32-NavigatorBot: ESP32 GPS Bluetooth Robot Car
 
+<img src="https://jojoyeap.github.io/ESP32-NavigatorBot/images/Car_Main.png" alt="RoboCard" width="300">
+
 This repository contains the code for an **ESP32-based robot car** that integrates GPS and Bluetooth capabilities. The robot receives GPS coordinates via Bluetooth from a mobile app and autonomously navigates to the specified location.
 
 ## Features
@@ -31,7 +33,7 @@ This repository contains the code for an **ESP32-based robot car** that integrat
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/JojoYeap/ESP32-NavigatorBot.git
-   Open the .ino file in the Arduino IDE.
+2. Open the .ino file in the Arduino IDE.
 2. Install the required libraries via the Arduino Library Manager.
 3. Upload the code to the ESP32 board.
 4. Connect the GPS module, magnetometer, OLED display, and motors as per the pin configurations in the code.
@@ -43,7 +45,7 @@ This repository contains the code for an **ESP32-based robot car** that integrat
 4. Watch as the robot navigates autonomously towards the target location!
 
 ## Repository Structure
-Final_Code_v2.ino: The main Arduino sketch for the robot car.
+ArduinoCode.ino: The main Arduino sketch for the robot car.
 
 ## Future Enhancements
 - Add obstacle detection and avoidance.
