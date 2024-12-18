@@ -34,9 +34,10 @@ This repository contains the code for an **ESP32-based robot car** that integrat
    ```bash
    git clone https://github.com/JojoYeap/ESP32-NavigatorBot.git
 2. Open the .ino file in the Arduino IDE.
-2. Install the required libraries via the Arduino Library Manager.
-3. Upload the code to the ESP32 board.
-4. Connect the GPS module, magnetometer, OLED display, and motors as per the pin configurations in the code.
+3. Install the required libraries via the Arduino Library Manager.
+4. Upload the code to the ESP32 board.
+5. Connect the GPS module, magnetometer, OLED display, and motors as per the pin configurations in the code.
+6. Download the mobile app file CAR_APP.aia, and open it with MIT App Inventor to compile and install it on your mobile device.
 
 ## Usage
 1. Power the robot and ensure the Bluetooth module is enabled.
@@ -45,8 +46,9 @@ This repository contains the code for an **ESP32-based robot car** that integrat
 4. Watch as the robot navigates autonomously towards the target location!
 
 ## Repository Structure
-ArduinoCode.ino: The main Arduino sketch for the robot car.
-
+- `ArduinoCode.ino`: The main Arduino sketch for the robot car.
+- `CAR_APP.aia`: The MIT App Inventor project file for the mobile app.
+  
 ## Future Enhancements
 - Add obstacle detection and avoidance.
 - Improve route optimization algorithms.
