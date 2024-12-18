@@ -13,7 +13,7 @@ This repository contains the code for an **ESP32-based robot car** that integrat
 
 ## Hardware Requirements
 - **ESP32 microcontroller**
-- **GPS module**
+- **NEO-6M GPS module**
 - **Bluetooth-enabled app/device**
 - **HMC5883L magnetometer**
 - **OLED display (SSD1306)**
