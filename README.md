@@ -1,6 +1,6 @@
 # ESP32-NavigatorBot: ESP32 GPS Bluetooth Robot Car
 
-<img src="https://jojoyeap.github.io/ESP32-NavigatorBot/images/Car_Main.png" alt="RoboCard" width="300">
+<img src="https://jojoyeap.github.io/ESP32-NavigatorBot/images/Car_Main.png" alt="ESP32-NavigatorBot" width="300">
 
 This repository contains the code for an **ESP32-based robot car** that integrates GPS and Bluetooth capabilities. The robot receives GPS coordinates via Bluetooth from a mobile app and autonomously navigates to the specified location.
 
